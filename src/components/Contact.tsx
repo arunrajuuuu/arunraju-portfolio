@@ -53,7 +53,7 @@ export default function Contact() {
             </a>
             <div className="flex items-center gap-3 text-sm text-[#999999]">
               <MapPin size={18} className="text-[#666666]" />
-              Hyderabad, Telangana, India
+              india
             </div>
           </div>
         </motion.div>
