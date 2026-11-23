@@ -31,7 +31,7 @@ export default function Contact() {
             >
               <Mail size={18} className="text-[#666666] group-hover:text-white transition-colors" />
               arunraju.portfolio@gmail.com
-              <span className="text-xs text-[#555555]">(update with your preferred email)</span>
+              <span className="text-xs text-[#555555]">(arvarajuarunraju043@gmail.com)</span>
             </a>
             <a
               href="https://github.com/arunrajuuuu"
