@@ -30,8 +30,8 @@ export default function Contact() {
               className="flex items-center gap-3 text-sm text-[#cccccc] hover:text-white transition-colors group"
             >
               <Mail size={18} className="text-[#666666] group-hover:text-white transition-colors" />
-              arunraju.portfolio@gmail.com
-              <span className="text-xs text-[#555555]">(arvarajuarunraju043@gmail.com)</span>
+              arvarajuarunraju043@gmail
+              <span className="text-xs text-[#555555]">()</span>
             </a>
             <a
               href="https://github.com/arunrajuuuu"
