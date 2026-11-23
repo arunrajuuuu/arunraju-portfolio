@@ -43,7 +43,7 @@ export default function Contact() {
               github.com/arunrajuuuu
             </a>
             <a
-              href="www.linkedin.com/in/arvarajuarunraju"
+              href="https://www.linkedin.com/in/arvarajuarunraju"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-sm text-[#cccccc] hover:text-white transition-colors group"
