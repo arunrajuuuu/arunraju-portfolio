@@ -26,7 +26,7 @@ export default function Contact() {
 
           <div className="space-y-4">
             <a
-              href="mailto:arunraju.portfolio@gmail.com"
+              href="mailto:arvarajuarunraju043@gmail.com"
               className="flex items-center gap-3 text-sm text-[#cccccc] hover:text-white transition-colors group"
             >
               <Mail size={18} className="text-[#666666] group-hover:text-white transition-colors" />
