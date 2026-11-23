@@ -49,7 +49,7 @@ export default function Contact() {
               className="flex items-center gap-3 text-sm text-[#cccccc] hover:text-white transition-colors group"
             >
               <Linkedin size={18} className="text-[#666666] group-hover:text-white transition-colors" />
-              linkedin.com/in/arunrajuuuu
+              linkedin.com/in/arvarajuarunraju
             </a>
             <div className="flex items-center gap-3 text-sm text-[#999999]">
               <MapPin size={18} className="text-[#666666]" />
