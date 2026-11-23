@@ -62,7 +62,7 @@ export default function Hero() {
               <Github size={18} />
             </a>
             <a
-              href="https://www.linkedin.com/in/arunrajuuuu"
+              href="www.linkedin.com/in/arvarajuarunraju"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-3 border border-[#252525] text-sm font-medium text-[#999999] rounded-md hover:border-[#444] hover:text-white transition-colors"
