@@ -22,7 +22,7 @@ export default function About() {
             <div className="relative mx-auto md:mx-0">
               <div className="w-56 h-56 md:w-64 md:h-64 rounded-2xl overflow-hidden border border-[#252525] bg-[#111111] shadow-2xl shadow-black/40">
                 <img
-                  src={`${import.meta.env.BASE_URL}WhatsApp%20Image%202026-10-07%20at%2010.33.17%20AM.jpeg`}
+                  src={`${import.meta.env.BASE_URL}arunraju.jpg`}
                   alt="Arvaraju Arunraju"
                   className="w-full h-full object-cover object-top"
                   loading="lazy"
