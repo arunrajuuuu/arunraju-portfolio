@@ -19,16 +19,22 @@ export default function About() {
 
           <div className="grid md:grid-cols-[280px_1fr] gap-12 md:gap-16 items-start">
             {/* Portrait */}
-            <div className="relative mx-auto md:mx-0">
-              <div className="w-56 h-56 md:w-64 md:h-64 rounded-2xl overflow-hidden border border-[#252525] bg-[#111111] shadow-2xl shadow-black/40">
+            <div className="relative mx-auto md:mx-0 w-64 md:w-[280px] group">
+              {/* Glow */}
+              <div className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-[#1e3a5f]/50 via-transparent to-[#06b6d4]/20 blur-2xl opacity-70 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+
+              {/* Photo card */}
+              <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-[#252525] bg-[#111111] shadow-2xl shadow-black/50 transition-transform duration-500 group-hover:-translate-y-1.5">
                 <img
                   src={`${import.meta.env.BASE_URL}arunraju.jpg`}
                   alt="Arvaraju Arunraju"
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"
                 />
               </div>
-              <div className="absolute -inset-1 rounded-2xl border border-[#1e3a5f]/40 pointer-events-none" />
+
+              {/* Outer border */}
+              <div className="absolute -inset-1.5 rounded-[1.25rem] border border-[#1e3a5f]/50 pointer-events-none" />
             </div>
 
             {/* Content */}
